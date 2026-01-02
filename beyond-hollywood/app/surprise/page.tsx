@@ -39,6 +39,7 @@ export default function SurprisePage() {
 
     useEffect(() => {
         fetchSurprise()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [filters])
 
     const selectFilter = (key: keyof typeof filters) => {
