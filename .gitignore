@@ -9,8 +9,12 @@ beyond-hollywood/.next/
 # Large datasets
 *.csv
 *.json
-!beyond-hollywood/public/*.json
-!beyond-hollywood/lib/*.json
+!beyond-hollywood/public/data/*.json
+!beyond-hollywood/lib/**/*.json
+!package.json
+!tsconfig.json
+!beyond-hollywood/package.json
+!beyond-hollywood/tsconfig.json
 
 # Env files
 .env*
