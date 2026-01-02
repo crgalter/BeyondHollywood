@@ -11,8 +11,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from datetime import datetime
 
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
+
 # Configuration
-INPUT_CSV = '../TMDB_movie_dataset_v11.csv'
 OUTPUT_DIR = '../beyond-hollywood/public/data'
 TOP_SIMILAR = 20  # Number of similar movies to pre-compute per movie
 
@@ -198,9 +200,13 @@ def create_movie_records(df):
 def main():
     print("=== Beyond Hollywood Data Preprocessing ===\n")
     
-    # Load CSV
-    print(f"Loading CSV: {INPUT_CSV}")
-    df = pd.read_csv(INPUT_CSV)
+    # Load from Kaggle
+    print("Loading dataset from Kaggle...")
+    df = kagglehub.load_dataset(
+        KaggleDatasetAdapter.PANDAS,
+        "asaniczka/tmdb-movies-dataset-2023-930k-movies",
+        "TMDB_movie_dataset_v11.csv"
+    )
     print(f"Loaded {len(df)} movies\n")
     
     # Clean data
