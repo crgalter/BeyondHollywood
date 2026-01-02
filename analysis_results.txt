@@ -1,0 +1,84 @@
+--- Dataframe Info ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1262991 entries, 0 to 1262990
+Data columns (total 24 columns):
+ #   Column                Non-Null Count    Dtype  
+---  ------                --------------    -----  
+ 0   id                    1262991 non-null  int64  
+ 1   title                 1262978 non-null  object 
+ 2   vote_average          1262991 non-null  float64
+ 3   vote_count            1262991 non-null  int64  
+ 4   status                1262991 non-null  object 
+ 5   release_date          1020285 non-null  object 
+ 6   revenue               1262991 non-null  int64  
+ 7   runtime               1262991 non-null  int64  
+ 8   adult                 1262991 non-null  bool   
+ 9   backdrop_path         325784 non-null   object 
+ 10  budget                1262991 non-null  int64  
+ 11  homepage              131833 non-null   object 
+ 12  imdb_id               632557 non-null   object 
+ 13  original_language     1262991 non-null  object 
+ 14  original_title        1262978 non-null  object 
+ 15  overview              988941 non-null   object 
+ 16  popularity            1262991 non-null  float64
+ 17  poster_path           840480 non-null   object 
+ 18  tagline               176789 non-null   object 
+ 19  genres                731814 non-null   object 
+ 20  production_companies  554934 non-null   object 
+ 21  production_countries  676873 non-null   object 
+ 22  spoken_languages      699902 non-null   object 
+ 23  keywords              327093 non-null   object 
+dtypes: bool(1), float64(2), int64(5), object(16)
+memory usage: 222.8+ MB
+
+
+--- First 5 Rows ---
+       id            title  vote_average  vote_count    status release_date     revenue  runtime  adult                     backdrop_path     budget                                        homepage    imdb_id original_language   original_title                                                                                                                                                                                                                                                                                                                                                                                                      overview  popularity                       poster_path                                                     tagline                                       genres                                                             production_companies                      production_countries                    spoken_languages                                                                                                                                                                                                                                                                                                                                                                                                                                    keywords
+0   27205        Inception         8.364       34495  Released   2010-07-15   825532764      148  False  /8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg  160000000     https://www.warnerbros.com/movies/inception  tt1375666                en        Inception                                                                                                                      Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: "inception", the implantation of another person's idea into a target's subconscious.      83.952  /oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg                        Your mind is the scene of the crime.           Action, Science Fiction, Adventure                               Legendary Pictures, Syncopy, Warner Bros. Pictures  United Kingdom, United States of America  English, French, Japanese, Swahili                                                                                                                                                                                                                           rescue, mission, dream, airplane, paris, france, virtual reality, kidnapping, philosophy, spy, allegory, manipulation, car crash, heist, memory, architecture, los angeles, california, dream world, subconscious
+1  157336     Interstellar         8.417       32571  Released   2014-11-05   701729206      169  False  /pbrkL804c8yAv3zBZR4QPEafpAR.jpg  165000000               http://www.interstellarmovie.net/  tt0816692                en     Interstellar                                                                                                                                                                                                        The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.     140.241  /gEU2QniE6E77NI6lCU6MxlNBvIx.jpg  Mankind was born on Earth. It was never meant to die here.            Adventure, Drama, Science Fiction                              Legendary Pictures, Syncopy, Lynda Obst Productions  United Kingdom, United States of America                             English  rescue, future, spacecraft, race against time, artificial intelligence (a.i.), nasa, time warp, dystopia, expedition, space travel, wormhole, famine, black hole, quantum mechanics, family relationships, space, robot, astronaut, scientist, single father, farmer, space station, curious, space adventure, time paradox, thoughtful, time-manipulation, father daughter relationship, 2060s, cornfield, time manipulation, complicated
+2     155  The Dark Knight         8.512       30619  Released   2008-07-16  1004558444      152  False  /nMKdUUepR0i5zn0y1T4CsSB5chy.jpg  185000000  https://www.warnerbros.com/movies/dark-knight/  tt0468569                en  The Dark Knight  Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.     130.643  /qJ2tW6WMUDux911r6m7haRef0WH.jpg                           Welcome to a world without rules.               Drama, Action, Crime, Thriller  DC Comics, Legendary Pictures, Syncopy, Isobel Griffiths, Warner Bros. Pictures  United Kingdom, United States of America                   English, Mandarin                                                                                                                                                                                                  joker, sadism, chaos, secret identity, crime fighter, superhero, anti hero, scarecrow, based on comic, vigilante, organized crime, tragic hero, anti villain, criminal mastermind, district attorney, super power, super villain, neo-noir
+3   19995           Avatar         7.573       29815  Released   2009-12-15  2923706026      162  False  /vL5LR6WdxWPjLPFRLe133jXWsh5.jpg  237000000            https://www.avatar.com/movies/avatar  tt0499549                en           Avatar                                                                                                                                                                                                                               In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.      79.932  /kyeqWdyUXW608qlYkRqosgbbJyK.jpg                                 Enter the world of Pandora.  Action, Adventure, Fantasy, Science Fiction  Dune Entertainment, Lightstorm Entertainment, 20th Century Fox, Ingenious Media  United States of America, United Kingdom                    English, Spanish                                                                                                                                                                                                                              future, society, culture clash, space travel, space war, space colony, tribe, romance, alien, futuristic, space, alien planet, marine, soldier, battle, love affair, nature, anti war, power relations, joyful
+4   24428     The Avengers         7.710       29166  Released   2012-04-25  1518815515      143  False  /9BBTo63ANSmhC4e6r62OJFuK2GL.jpg  220000000      https://www.marvel.com/movies/the-avengers  tt0848228                en     The Avengers                                                                                                     When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!      98.082   /RYMX2wcKCBAr24UyPD7xwmjaTn.jpg                                     Some assembly required.           Science Fiction, Action, Adventure                                                                   Marvel Studios                  United States of America             English, Hindi, Russian                                                                                                                                                                                                                                                                                new york city, superhero, shield, based on comic, alien invasion, superhero team, aftercreditsstinger, duringcreditsstinger, marvel cinematic universe (mcu)
+
+--- Column Statistics ---
+                  id    title  vote_average    vote_count    status release_date       revenue       runtime    adult                     backdrop_path        budget                        homepage     imdb_id original_language original_title overview    popularity                       poster_path  tagline       genres production_companies      production_countries spoken_languages    keywords
+count   1.262991e+06  1262978  1.262991e+06  1.262991e+06   1262991      1020285  1.262991e+06  1.262991e+06  1262991                            325784  1.262991e+06                          131833      632557           1262991        1262978   988941  1.262991e+06                            840480   176789       731814               554934                    676873           699902      327093
+unique           NaN  1078192           NaN           NaN         6        43196           NaN           NaN        2                            322953           NaN                          123406      630396               176        1113771   959015           NaN                            835450   169503        14111               219604                     10499             7254      187992
+top              NaN     Home           NaN           NaN  Released   2006-01-01           NaN           NaN    False  /3CxwYgqGtJ6UEGfWUT0gMYCIlFP.jpg           NaN  https://animation.geidai.ac.jp  tt32094375                en       Untitled                    NaN  /wtoKLMm4UvkwvcSwO3XWcs1gJuF.jpg  English  Documentary           Evil Angel  United States of America          English  short film
+freq             NaN      170           NaN           NaN   1226882         3827           NaN           NaN  1139038                               157           NaN                             147          96            687378            125     1215           NaN                                54      270       146730                 3032                    189416           250563       10667
+mean    8.122297e+05      NaN  1.717507e+00  1.698583e+01       NaN          NaN  6.570963e+05  4.595513e+01      NaN                               NaN  2.546702e+05                             NaN         NaN               NaN            NaN      NaN  1.134420e+00                               NaN      NaN          NaN                  NaN                       NaN              NaN         NaN
+std     4.327498e+05      NaN  2.945406e+00  3.022114e+02       NaN          NaN  1.876416e+07  6.128338e+01      NaN                               NaN  5.193560e+06                             NaN         NaN               NaN            NaN      NaN  7.205051e+00                               NaN      NaN          NaN                  NaN                       NaN              NaN         NaN
+min     2.000000e+00      NaN  0.000000e+00  0.000000e+00       NaN          NaN -1.200000e+01 -2.800000e+01      NaN                               NaN  0.000000e+00                             NaN         NaN               NaN            NaN      NaN  0.000000e+00                               NaN      NaN          NaN                  NaN                       NaN              NaN         NaN
+25%     4.486935e+05      NaN  0.000000e+00  0.000000e+00       NaN          NaN  0.000000e+00  0.000000e+00      NaN                               NaN  0.000000e+00                             NaN         NaN               NaN            NaN      NaN  6.000000e-01                               NaN      NaN          NaN                  NaN                       NaN              NaN         NaN
+50%     8.222770e+05      NaN  0.000000e+00  0.000000e+00       NaN          NaN  0.000000e+00  1.900000e+01      NaN                               NaN  0.000000e+00                             NaN         NaN               NaN            NaN      NaN  6.000000e-01                               NaN      NaN          NaN                  NaN                       NaN              NaN         NaN
+75%     1.198060e+06      NaN  4.000000e+00  1.000000e+00       NaN          NaN  0.000000e+00  8.700000e+01      NaN                               NaN  0.000000e+00                             NaN         NaN               NaN            NaN      NaN  8.410000e-01                               NaN      NaN          NaN                  NaN                       NaN              NaN         NaN
+max     1.520614e+06      NaN  1.000000e+01  3.449500e+04       NaN          NaN  5.000000e+09  1.440000e+04      NaN                               NaN  1.000000e+09                             NaN         NaN               NaN            NaN      NaN  2.994357e+03                               NaN      NaN          NaN                  NaN                       NaN              NaN         NaN
+
+--- Missing Values ---
+id                            0
+title                        13
+vote_average                  0
+vote_count                    0
+status                        0
+release_date             242706
+revenue                       0
+runtime                       0
+adult                         0
+backdrop_path            937207
+budget                        0
+homepage                1131158
+imdb_id                  630434
+original_language             0
+original_title               13
+overview                 274050
+popularity                    0
+poster_path              422511
+tagline                 1086202
+genres                   531177
+production_companies     708057
+production_countries     586118
+spoken_languages         563089
+keywords                 935898
+
+--- Field Analysis ---
+Available columns: ['id', 'title', 'vote_average', 'vote_count', 'status', 'release_date', 'revenue', 'runtime', 'adult', 'backdrop_path', 'budget', 'homepage', 'imdb_id', 'original_language', 'original_title', 'overview', 'popularity', 'poster_path', 'tagline', 'genres', 'production_companies', 'production_countries', 'spoken_languages', 'keywords']
