@@ -12,8 +12,10 @@ beyond-hollywood/.next/
 !beyond-hollywood/public/data/*.json
 !beyond-hollywood/lib/**/*.json
 !package.json
+!package-lock.json
 !tsconfig.json
 !beyond-hollywood/package.json
+!beyond-hollywood/package-lock.json
 !beyond-hollywood/tsconfig.json
 
 # Env files
