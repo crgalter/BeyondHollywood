@@ -39,9 +39,10 @@ export default function Navigation() {
                     <span style={{
                         fontSize: '1.5rem',
                         fontWeight: 800,
-                        color: '#f1f1f1',
-                        letterSpacing: '-0.02em',
-                        fontFamily: 'var(--font-heading)'
+                        background: 'linear-gradient(to right, #f1f1f1, #b0b0b0)',
+                        WebkitBackgroundClip: 'text',
+                        WebkitTextFillColor: 'transparent',
+                        letterSpacing: '-0.02em'
                     }}>
                         Beyond<span style={{ color: '#e94560', WebkitTextFillColor: '#e94560' }}>Hollywood</span>
                     </span>

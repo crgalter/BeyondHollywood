@@ -47,9 +47,8 @@ export default function HomePage() {
                         marginBottom: '0.5rem'
                     }}>
                         <h1 style={{
-                            fontFamily: 'var(--font-heading)',
                             fontSize: 'clamp(3rem, 8vw, 6rem)',
-                            fontWeight: 800,
+                            fontWeight: 900,
                             margin: 0,
                             background: 'linear-gradient(to right, #ffffff, #888)',
                             WebkitBackgroundClip: 'text',
