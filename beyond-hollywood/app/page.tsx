@@ -22,7 +22,7 @@ export default function HomePage() {
             minHeight: '100vh',
             background: '#0a0a0f',
             color: '#f1f1f1',
-            fontFamily: 'system-ui, -apple-system, sans-serif'
+            fontFamily: 'var(--font-body)'
         }}>
             {/* Hero Section */}
             <div style={{
@@ -47,8 +47,9 @@ export default function HomePage() {
                         marginBottom: '0.5rem'
                     }}>
                         <h1 style={{
+                            fontFamily: 'var(--font-heading)',
                             fontSize: 'clamp(3rem, 8vw, 6rem)',
-                            fontWeight: 900,
+                            fontWeight: 800,
                             margin: 0,
                             background: 'linear-gradient(to right, #ffffff, #888)',
                             WebkitBackgroundClip: 'text',
@@ -181,6 +182,6 @@ export default function HomePage() {
                     </div>
                 )}
             </div>
-        </div>
+        </div >
     )
 }

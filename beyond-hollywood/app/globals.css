@@ -2,15 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Import Premium Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap');
-
 /* CSS Variables - Beyond Hollywood Design System */
 :root {
-  /* Typography */
-  --font-display: 'Playfair Display', Georgia, serif;
-  --font-heading: 'Montserrat', 'Helvetica Neue', sans-serif;
-  --font-body: 'Inter', 'Open Sans', sans-serif;
+  /* Typography fallback if needed, but Next.js fonts populate these variables */
+  /* --font-display, --font-heading, and --font-body are managed by layout.tsx */
 
   /* Colors - Deep Foundations */
   --midnight-canvas: #0a0a0f;

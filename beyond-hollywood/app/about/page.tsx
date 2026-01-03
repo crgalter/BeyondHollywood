@@ -4,7 +4,7 @@ export default function AboutPage() {
             minHeight: '100vh',
             background: '#0a0a0f',
             color: '#f1f1f1',
-            fontFamily: 'system-ui, -apple-system, sans-serif'
+            fontFamily: 'var(--font-body)'
         }}>
             {/* Hero Section */}
             <div style={{
